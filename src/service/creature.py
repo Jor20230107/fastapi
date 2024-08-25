@@ -1,5 +1,5 @@
 from src.model.creature import Creature
-from src.fake import creature as data
+from src.data import creature as data
 
 def get_all() -> list[Creature]:
     return data.get_all()

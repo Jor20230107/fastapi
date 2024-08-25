@@ -1,4 +1,4 @@
-from ..model.explorer import Explorer
+from src.model.explorer import Explorer
 
 # 가짜 데이터. 10장에서 실제 데이터베이스와 SQL로 바꾼다.
 _explorers = [

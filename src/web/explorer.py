@@ -1,6 +1,6 @@
 from fastapi import APIRouter
-from ..model.explorer import Explorer
-from ..fake import explorer as service
+from src.model.explorer import Explorer
+from src.fake import explorer as service
 
 router = APIRouter(prefix="/explorer")
 

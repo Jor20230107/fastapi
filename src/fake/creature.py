@@ -1,4 +1,4 @@
-from ..model.creature import Creature
+from src.model.creature import Creature
 
 # 데이터베이스와 SQL로 바꿀 때까지 사용할 가짜 데이터
 _creatures = [

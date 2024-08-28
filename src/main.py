@@ -1,6 +1,6 @@
 import uvicorn
 from fastapi import FastAPI
-from .web import creature, explorer
+from src.web import creature, explorer
 
 app = FastAPI()
 

@@ -64,7 +64,7 @@ def modify(explorer: Explorer) -> Explorer:
     if curs.rowcount == 1:
         return get_one(explorer.name)
     else:
-        raise Missing(msg=f"Explorer {name} not found")
+        raise Missing(msg=f"Explorer {explorer.name} not found")
     
 
 def replace(explorer: Explorer):
@@ -75,4 +75,4 @@ def delete(explorer: Explorer):
     params = {"name": explorer.name}
     curs.execute(qry, params)
     if curs.rowcount != 1:
-        raise Missing(msg=f"Explorer {name} not found")    
+        raise Missing(msg=f"Explorer {explorer.name} not found")    
